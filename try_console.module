@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains try_console.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function try_console_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the try_console module.
+    case 'help.page.try_console':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Module from console commands') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function try_console_theme() {
+  return [
+    'try_console' => [
+      'render element' => 'children',
+    ],
+  ];
+}

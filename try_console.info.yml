@@ -1,0 +1,5 @@
+name: 'Try console'
+type: module
+description: 'Module from console commands'
+core: 8.x
+package: 'Custom'

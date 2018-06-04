@@ -1,0 +1,6 @@
+entity.TryHard_entity.add_form:
+  route_name: entity.TryHard_entity.add_form
+  title: 'Add Try Hard entity'
+  appears_on:
+    - entity.TryHard_entity.collection
+

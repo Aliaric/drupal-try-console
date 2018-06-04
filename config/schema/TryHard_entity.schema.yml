@@ -1,0 +1,12 @@
+try_console.TryHard_entity.*:
+  type: config_entity
+  label: 'Try Hard entity config'
+  mapping:
+    id:
+      type: string
+      label: 'ID'
+    label:
+      type: label
+      label: 'Label'
+    uuid:
+      type: string

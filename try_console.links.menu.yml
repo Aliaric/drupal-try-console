@@ -1,0 +1,9 @@
+
+# Try Hard entity menu items definition
+entity.TryHard_entity.collection:
+  title: 'Try Hard entity'
+  route_name: entity.TryHard_entity.collection
+  description: 'List Try Hard entity (bundles)'
+  parent: system.admin_structure
+  weight: 99
+

@@ -1,0 +1,8 @@
+
+try_console.default_controller_hello:
+  path: '/try-console/hello/{name}'
+  defaults:
+    _controller: '\Drupal\try_console\Controller\TryController::hello'
+    _title: 'TryControllerMethod'
+  requirements:
+    _permission: 'access content'
